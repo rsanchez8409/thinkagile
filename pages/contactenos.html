@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Para más información sobre nuestros servicios, puedes contactarnos por medio de nuestro formulario, y uno de nuestros asesores te dará la información respectiva.">
+    <meta name="keywords" content="Servicios digitales, formulario de contacto, asesores en derecho digital, asesor en diseño web, asesor en metodologías ágiles.">
+    <title>Contáctenos - Think Agile - Asesores en proyectos digitales</title>
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+    <link rel="stylesheet" href="../css/pruebacss.css">
+    <!-- Invocar a los estilos css de bootstrap usando el metodo de cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+    <body>
+        <!-- Invocar a las librerías de Jquery, Popper, Bootstrap usando el método con cdn-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        
+        <!--Implementación popover-->
+        <script>
+            $(function () {
+            $('[data-toggle="popover"]').popover()
+          })
+        </script>
+        
+        <header class="col-lg-12 col-md-12 col-sm-12">
+            <div class="contenedor">
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo.png" alt="Think Agile"></a>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light menu">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../pages/gerencia-de-proyectos-digitales.html">Gerencia de proyectos</a>
+                                    <a class="dropdown-item" href="../pages/diseno-web.html">Diseño web</a>
+                                    <a class="dropdown-item" href="../pages/derecho-digital.html">Derecho digital</a>
+                                    <a class="dropdown-item" href="../pages/posicionamiento-web.html">Posicionamiento web</a>
+                                </div>   
+                            </li>
+                            <li class="nav-item active">
+                            <a class="nav-link" href="../pages/eventos.html">Eventos<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../pages/blog.html">Blog<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../pages/contactenos.html">Contáctenos<span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+            <div class="home">
+                <img src="../images/contacto/contacto.jpg" alt="Think Agile Contáctenos" class="imagen_home">
+            </div>
+            <div class="formularioContacto">
+                <h3>Formulario de contacto <span class="badge badge-success">Nuevo!</span></h3>
+            </div>
+
+            <div class="container">
+                <form>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput">Nombre</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Por favor digita tu nombre">
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput2">Apellido</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Por favor digita tu apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="abc@dominio.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">País</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Colombia</option>
+                            <option>Argentina</option>
+                            <option>Uruguay</option>
+                            <option>Chile</option>
+                            <option>España</option>
+                            <option>Perú</option>
+                            <option>Brasil</option>
+                            <option>Venezuela</option>
+                            <option>Bolivia</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect2">Indícanos el motivo de tu contacto</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                      <option>Diseño web</option>
+                      <option>Derecho Digital</option>
+                      <option>Posicionamiento web</option>
+                      <option>Proyectos digital</option>
+                      <option>Mensaje de felicitación</option>
+                      <option>Quejas y reclamos</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Ingresa tus comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="botonContactenos">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button type="button" class="btn btn-info" data-toggle="popover" title="Opción de ayuda" data-content="Si necesitas ayuda para diligenciar el formulario llámanos al 123456789">Ayuda</button>
+                </div>
+            </div>
+        <footer class="footer">
+            <div class="contenedorFooter">
+                <div class="enlacesFooter">
+                    <p><a href="../pages/quienes-somos.html">¿Quiénes somos?</a></p>
+                    <p><a href="../pages/trabaja-con-nosotros.html">Trabaja con nosotros</a></p>
+                    <p><a href="../pages/terminos-y-condiciones.html">Términos y condiciones</a></p>
+                </div>
+                <div class="redesSocialesFooter">
+                    <div class="facebook">FACEBOOK</div>
+                    <div class="twitter">TWITTER</div>
+                    <div class="instagram">INSTAGRAM</div>
+                    <div class="youtube">YOUTUBE</div>
+                </div>
+                <div class="copyrightFooter">
+                    <p>THINK AGILE - Todos los derechos reservados © - 2020</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

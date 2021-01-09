@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    position: relative;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.home{
+    padding-left: 600px;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.paises{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.proyectos{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.empresas{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.nuestrosClientes{
+    margin-top: 80px;
+}
+
+.listadoClientes{
+    margin: 30px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: 250px 100px 180px;
+    justify-content: space-evenly;
+}
+
+.clientes{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.footer{
+    padding: 10px;
+    height: 200px;
+    background-color:#003F66;
+}
+
+.contenedorFooter{
+    position: relative;
+    height: 180px;
+    width: 100%;
+}
+
+.enlacesFooter{
+    position: absolute;
+    height: 70%;
+    width: 50%;
+}
+
+.enlacesFooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.redesSocialesFooter{
+    position: absolute;
+    left: 50%;
+    height: 70%;
+    width: 50%;
+    color: white;
+}
+
+.copyrightFooter{
+    position: absolute;
+    height: 30%;
+    top: 70%;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        background-color: white;
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    text-align: center;
+    list-style-type: none;
+    font-size: 0;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    color: white;
+    border: solid 1px white;
+
+}
+
+ul li ul{
+    position: absolute;
+    display: none;
+
+}
+
+ul ul li{
+    display: block;
+    width: 100%;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+li :hover{
+    background-color: lightslategrey;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.subtitulo{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.formularioContacto{
+    text-align: center;
+    padding:30px;
+}
+
+.botonContactenos{
+    text-align: center;
+    padding: 50px;
+}
+
+.carousel{
+    width: 700px;
+    height: 500px;
+}
